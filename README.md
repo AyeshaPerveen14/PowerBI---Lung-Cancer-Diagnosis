@@ -1,4 +1,4 @@
-## 🎗️ Behavioural and Demographic Data Analysis for Early Lung Cancer Detection
+## Behavioural and Demographic Data Analysis for Early Lung Cancer Detection
 ### Table of Contents
   -[Project Overview](#project-overview)
   
@@ -17,13 +17,13 @@
   -[Recommendations](#recommendations)
 
 
-### 📌 Project Overview
+### Project Overview
 
 This project presents an end-to-end analytical study focused on early lung cancer detection using behavioural, symptomatic, and demographic data. Conducted under the context of Veritas Health Institute (2025), the analysis aims to uncover key risk patterns, segment participants by risk level, and provide actionable insights through interactive visual storytelling in Power BI.
 
 The project emphasizes practical healthcare analytics, combining data preparation, modelling, visualization, and interpretation to support early diagnosis and preventive public health strategies.
 
-### 🏁 Project Objectives
+### Project Objectives
 
   * Identify the most common symptoms among diagnosed individuals
   * Discover leading behavioural risk factors associated with lung cancer
@@ -31,7 +31,7 @@ The project emphasizes practical healthcare analytics, combining data preparatio
   * Generate actionable insights for early detection and intervention
   * Deliver a one-page interactive Power BI dashboard with clear storytelling
 
-### 🛢️ Dataset Information
+### Dataset Information
 
   **Source:** Kaggle – Lung Cancer Dataset [ClickHere for Dataset](https://www.kaggle.com/datasets/aagambshah/lung-cancer-dataset)
   
@@ -46,7 +46,7 @@ The project emphasizes practical healthcare analytics, combining data preparatio
 * **Symptoms:** Fatigue, Coughing, Chest Pain, Shortness of Breath, Swallowing Difficulty, Yellow Fingers, etc.
 * **Target Variable:** Lung Cancer Diagnosis (Yes / No)
 
-### 🛠️ Tools & Technologies
+### Tools & Technologies
 
 **Power BI** (Data Modelling, DAX, Visualization)
 
@@ -56,7 +56,7 @@ The project emphasizes practical healthcare analytics, combining data preparatio
 
 **Git & GitHub** (Version Control & Documentation)
 
-### 📊 Dashboard Features
+### Dashboard Features
 
 **Key Performance Indicators (KPIs)**
 
@@ -68,7 +68,7 @@ The project emphasizes practical healthcare analytics, combining data preparatio
 
 *Most common symptom among diagnosed individuals
 
-## 📉 Visualizations Used
+## Visualizations Used
 
 ### Visual Type:
 
@@ -84,7 +84,7 @@ The project emphasizes practical healthcare analytics, combining data preparatio
 
 **100% Stacked Bar** - Chart	Age group vs lung cancer diagnosis
 
-### 🧮 Key DAX Measures
+### Key DAX Measures
 
 **LungCancerRate** =
 DIVIDE(
@@ -119,26 +119,26 @@ RETURN
 
 Additional DAX measures are included in the Power BI file.
 
-## 📚 Supporting Tables Created
-### 1️⃣ Behavioural Breakdown
+## Supporting Tables Created
+### Behavioural Breakdown
 
 ***Purpose:** Unpivoted behavioural indicators into a two-column structure (Behaviour, Presence)
 
 ***Use Case:** Behavioural risk matrix and leading behavioural risk factor identification
 
-### 2️⃣ Symptom Breakdown
+### Symptom Breakdown
 
 ***Purpose:** Consolidated multiple symptom indicators into a unified structure
 
 ***Use Case:** Symptom prevalence treemap and identification of the most common symptom
 
-### 3️⃣ Substance Consumption
+### Substance Consumption
 
 ***Purpose:** Isolated diagnosis outcomes based on smoking and alcohol usage
 
 ***Use Case:** 100% stacked column analysis of substance-related diagnosis trends
 
-## 🔍 Key Observations
+## Key Observations
 
 ***Fatigue** emerged as the most common symptom among diagnosed participants
 
@@ -156,7 +156,7 @@ Additional DAX measures are included in the Power BI file.
 
 *Psychosocial factors such as **anxiety and peer pressure** were reported frequently among diagnosed individuals
 
-## 💡 Recommendations
+## Recommendations
 
 *Prioritize lung cancer screening for adults **aged 50 and above**
 
